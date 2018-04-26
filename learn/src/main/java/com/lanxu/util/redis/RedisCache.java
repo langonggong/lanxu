@@ -8,6 +8,7 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import java.io.*;
+import java.util.concurrent.Callable;
 
 /**
  * @author lanxu
@@ -146,4 +147,8 @@ public class RedisCache implements Cache {
     return null;
   }
 
+  @Override
+  public <T> T get(Object key, Callable<T> valueLoader) {
+    return null;
+  }
 }

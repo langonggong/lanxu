@@ -12,6 +12,11 @@ import org.springframework.util.Log4jConfigurer;
 
 import java.io.FileNotFoundException;
 
+import mockit.Deencapsulation;
+import mockit.Mock;
+import mockit.MockUp;
+import mockit.NonStrictExpectations;
+import mockit.Verifications;
 import mockit.integration.junit4.JMockit;
 
 /**
