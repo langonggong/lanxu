@@ -1,6 +1,6 @@
 package com.lanxu.study.concurrency.jcip.examples;
 
-import jdk.nashorn.internal.ir.annotations.Immutable;
+import net.jcip.annotations.*;
 
 /**
  * Point

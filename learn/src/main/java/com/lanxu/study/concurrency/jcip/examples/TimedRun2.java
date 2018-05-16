@@ -1,8 +1,9 @@
 package com.lanxu.study.concurrency.jcip.examples;
 
 import java.util.concurrent.*;
+
+import static com.lanxu.study.concurrency.jcip.examples.LaunderThrowable.launderThrowable;
 import static java.util.concurrent.Executors.newScheduledThreadPool;
-import static net.jcip.examples.LaunderThrowable.launderThrowable;
 
 /**
  * TimedRun2
