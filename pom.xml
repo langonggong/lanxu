@@ -11,6 +11,7 @@
     <modules>
         <module>commom</module>
         <module>learn</module>
+        <module>springCloud</module>
     </modules>
 
     <properties>
@@ -31,6 +32,8 @@
         <quartz.version>2.2.1</quartz.version>
         <commons.dbcp.version>1.4</commons.dbcp.version>
         <jackson.version>2.8.8</jackson.version>
+        <hystrix.version>1.3.16</hystrix.version>
+        <hystrix-metrics-event-stream.version>1.1.2</hystrix-metrics-event-stream.version>
 
         <thymeleaf.version>3.0.3.RELEASE</thymeleaf.version>
     </properties>
