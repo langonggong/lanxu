@@ -10,7 +10,7 @@ import java.util.List;
  * 类描述：实现Chain的真正的包装Request和转发功能
  *
  **/
-public class RealChain implements Chain {
+public class RealChain implements Ratify.Chain {
   public Request request;
   public List<Ratify> ratifyList;
   public int index;
